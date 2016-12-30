@@ -20,6 +20,10 @@ part of a commit. You could preform several updates to files but the staging are
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are useful when doing experimental versions of files, but also when you have multiple projects on a specific code. For example you have your main
+production branch which contains the version running on production, and then have branches that contain changes associated with projects that might in the
+future be part of the new production code (by merging the branch into master).
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
