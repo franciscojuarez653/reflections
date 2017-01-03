@@ -26,6 +26,9 @@ future be part of the new production code (by merging the branch into master).
 
 How do the diagrams help you visualize the branch structure?
 
+They help because having a graphical representation of the commits done per branch makes it simple to understand which features or functionalities will be
+included on each branch and how are all my branches composed.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
