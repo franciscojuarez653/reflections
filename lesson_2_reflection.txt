@@ -32,5 +32,9 @@ included on each branch and how are all my branches composed.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+The result is a new branch/commit that includes all the changes of the two branches selected in the merge operation. This allows to combine modifications from
+multiple features, projects, etc. into a single version. We represent it that way to make it easy to see the commits that were done and how are the combined
+in the commit created by the merge.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
