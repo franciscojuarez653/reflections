@@ -39,4 +39,4 @@ in the commit created by the merge.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-Pros of automatic merging: saves time, makes easier this task. Cons: Git doesn't know how to handle conflicts automatically.
+Pros of automatic merging: saves time because Git knows how to combine files with changes. Cons: Git doesn't know how to handle conflicts automatically.
