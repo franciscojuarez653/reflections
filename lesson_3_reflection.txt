@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 I would use a remot repository if I want my project to be available for other people to contribute or if for example I want to access my work from a computer different from the one I regulary use. For projects I would use it to share software created by me free for everyone, if this was a private project I would still use a remote repository but not a public one though.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+There might be a case in which you made software public for people to collaborate but you don't really want to download every change as it could modify your current files. It might be a good idea for you to first check the commits that will be pulled before doing so.
