@@ -13,3 +13,7 @@ The difference is that forks work on GitHub servers, you can create copies of an
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit is that you can find faster were the remote and local repositories diverged using as a starting point of comparisson the remote latest commit.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If I didn't have any version control software I would probably collaborate having individual copies of the source code and then merging all the changes done by each person, begining to work would be easier because you wouldn't need to learn how to use Git or any additional software however merging changes and keeping track of specific working versions would be really hard.
