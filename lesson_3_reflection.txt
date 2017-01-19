@@ -17,3 +17,7 @@ The benefit is that you can find faster were the remote and local repositories d
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 If I didn't have any version control software I would probably collaborate having individual copies of the source code and then merging all the changes done by each person, begining to work would be easier because you wouldn't need to learn how to use Git or any additional software however merging changes and keeping track of specific working versions would be really hard.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I'd do changes in a separate branch when those changes will modify the source code in such a way that either the new feature is included or the changes are experimental and could break a production version. When I'm doing simple modifications on the working version I'd do them directly into master, for example solving an indicent or bug. The benefit of branching is that you can make any change you want and still having isloated from the production version thus reducing risks of malfunctioning code and fixing bugs or incidents directly into master is good to keep master up to date with the actual working version and people can merge the latest changes into their branches from master to work on a (hopefully) bug free version, ensuring that their branch work will include the fixes.
